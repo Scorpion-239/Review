@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/fbfc447d4c.js" crossorigin="anonymous"></script>
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+  </head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img 
+              width="45"
+              height="45"
+              src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHwzfHxtb3ZpZXN8ZW58MXx8fHwxNjc4Njk1OTE4&ixlib=rb-4.0.3&q=80&w=1080" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" aria-current="page" href="#" data-bs-toggle="dropdown"><i class="fas fa-list mx-1"></i> Menu</a>
+                <ul class="dropdown-menu bg-white">
+                  <li>
+                    <div class="dropdown-item d-flex gap-3" >
+                    <img 
+                    src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHwyfHxtb3ZpZXN8ZW58MXx8fHwxNjc4Njk1OTE4&ixlib=rb-4.0.3&q=80&w=1080"
+                    height="50"
+                    width="50"
+                    >
+                    <div>
+                      <p>Trending</p>
+                    </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-item d-flex gap-3" >
+                    <img 
+                    src="https://images.unsplash.com/photo-1516238840914-94dfc0c873ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHwxN3x8YXdhcmRzfGVufDF8fHx8MTY3ODczNTczOQ&ixlib=rb-4.0.3&q=80&w=1080"
+                    height="50"
+                    width="50"
+                    >
+                    <div>
+                      <p>Award</p>
+                    </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-item d-flex gap-3" >
+                    <img 
+                    src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDUzMDJ8MHwxfHNlYXJjaHwxMnx8Y29tbXVuaXR5fGVufDF8fHx8MTY3ODczMjEwOA&ixlib=rb-4.0.3&q=80&w=1080"
+                    height="50"
+                    width="50"
+                    >
+                    <div>
+                      <p>Community</p>
+                    </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="dropdown-item d-flex gap-3" >
+                    <img 
+                    src="https://assets.api.uizard.io/api/cdn/stream/ff23b69f-1eb9-460f-8f5e-073a011c7d47.png"
+                    height="50"
+                    width="50"
+                    >
+                    <div>
+                      <p>Events</p>
+                    </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link " href="index.html"><i class="fas fa-home mx-1"></i> Home</a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="movie.html"><i class="fas fa-film mx-1"></i> Movie</a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link " href="show.html"><i class="fas fa-tv mx-1"></i> Show</a>
+              </li>
+              <li class="nav-item me-3 me-lg-0 active">
+                <a class="nav-link text-white" href="contact.html"><i class="fas fa-clipboard mx-1"></i> Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex" role="search">
+              <div class="mx-2">
+                <i class="bi bi-box-arrow-in-right" style="font-size: 20px;"></i>
+              </div>
+              <div class="mx-2">
+                <i class="bi bi-film" style="font-size: 20px;" ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Body -->
+      <div class="d-flex justify-content-center">
+        <div class="p-5 text-secondary">
+          <h5>Send us a message</h5>
+        </div>
+      </div>
+      
+      <section style="padding: 0px;">
+        <div class="container">
+          <div class="d-flex justify-content-center">
+            <div class="card" style="width: 30rem;filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));">
+              <div class="card-body">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your subject">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Tell us about you Problem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 d-flex justify-content-end">
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L40,138.7C80,149,160,171,240,186.7C320,203,400,213,480,197.3C560,181,640,139,720,133.3C800,128,880,160,960,176C1040,192,1120,192,1200,176C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      </section>
+      <!-- Footer -->
+      <footer class="bg-primary text-white text-center pb-3">
+        <div class="container">
+            <div class="row">
+                <span class="text-white">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+      </footer>
+    </div>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
